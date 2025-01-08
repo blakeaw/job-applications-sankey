@@ -1,2 +1,3 @@
 # job-applications-sankey
-Create Sankey diagram showing flow of job applications.
+
+Streamlit web app to quickly generate a Sankey diagram of your job search progress from application to offer.
