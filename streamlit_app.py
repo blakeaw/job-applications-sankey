@@ -45,7 +45,7 @@ data["node"]["color"] = [
     "lawngreen",
 ]
 
-total_apps = st.number_input("Number of Applications", value=0)
+total_apps = st.number_input("Number of Applications", value=1)
 
 valid_pairs = [
     ("Applications", "Cold"),
