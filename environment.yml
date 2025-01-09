@@ -1,0 +1,32 @@
+name: sankey-app
+channels:
+  - ortegas
+  - alubbock
+  - defaults
+dependencies:
+  - cython=3.0.8
+  - matplotlib=3.8.0
+  - networkx=3.1
+  - numba=0.59.1
+  - openpyxl=3.1.2
+  - pandas=2.2.1
+  - pip=23.3.1
+  - pysb=1.16.0
+  - python=3.12.2
+  - pyvipr=1.0.7
+  - scipy=1.12.0
+  - setuptools=68.2.2
+  - pip:
+      - numpy==1.26.4
+      - astropy==6.1.1
+      - black==24.4.2
+      - https://github.com/blakeaw/GAlibrate/archive/refs/tags/v0.7.1.zip
+      - https://github.com/Borealis-BioModeling/pharmacodynamic-response-models/archive/refs/tags/v0.2.0.zip
+      - plotly==5.22.0
+      - https://github.com/blakeaw/pysb-pkpd/archive/refs/tags/v0.3.3.zip
+      - https://github.com/Borealis-BioModeling/pysb-units/archive/refs/tags/v0.4.0.zip
+      - pyvis==0.3.2
+      - streamlit==1.36.0
+      - streamlit-monaco==0.1.3
+      - sympy==1.11.1
+      - thunor==0.1.30
